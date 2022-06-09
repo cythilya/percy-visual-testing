@@ -10,7 +10,7 @@
     "storybook": "start-storybook",
     "storybook:build": "build-storybook -c .storybook -o demo",
     "lint": "eslint ./src",
-    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
+    "snapshot": "build-storybook && percy storybook ./storybook-static"
   },
   "peerDependencies": {
     "react": "^16.13.0",
